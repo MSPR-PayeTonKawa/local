@@ -1,5 +1,7 @@
 # Environnement de Développement Local
 
+Create docker network : `docker network create payetonkawa-n`
+
 Ce répertoire centralise le développement local pour `gestionProduit`, `gestionCommandes`, et `gestionClient` avec Kafka.
 
 ## Composants
