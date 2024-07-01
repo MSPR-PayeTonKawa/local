@@ -2,7 +2,7 @@
 
 # Project variables
 PROJECT_NAME=paye-ton-kawa
-COMPOSE_PATHS=-f ../gestionProduits/docker-compose.yml -f ../gestionCommandes/docker-compose.yml -f ../gestionClient/docker-compose.yml -f ./docker-compose.yml
+COMPOSE_PATHS=-f ../gestionProduits/docker-compose.yml -f ../gestionCommandes/docker-compose.yml -f ../gestionClient/docker-compose.yml -f ../auth/docker-compose.yml -f ./docker-compose.yml
 
 # Docker Compose project prefix (for creating scoped project names)
 COMPOSE_PROJECT_NAME=$(PROJECT_NAME)
