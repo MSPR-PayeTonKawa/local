@@ -1,4 +1,14 @@
 services:
+  nginx:
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: nginx.Dockerfile
+    ports:
+      - "80:80"
+    networks:
+      - payetonkawa-n
+
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
     ports:
